@@ -1,0 +1,17 @@
+
+# Secrets, caches and build artefacts
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+credentials*.json
+token*.json
+__pycache__/
+.pytest_cache/
+node_modules/
+.venv/
+venv/
+dist/
+.wrangler/
+*.log
